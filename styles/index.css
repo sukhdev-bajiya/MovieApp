@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(189, 253, 253);
+}
+
+nav>div {
+    padding: 15px 25px;
+}
+
+nav>div>a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin: 0 10px;
+
+}
+
+nav>div>a:hover {
+    color: orange;
+    font-weight: 800;
+}
+
+nav>div {
+    display: flex;
+}
+
+nav>div>button {
+    background-color: rgb(189, 253, 253);
+    border: 1px solid crimson;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+nav>div>button:hover {
+    background-color: crimson;
+    color: white;
+    font-weight: 600;
+}
+
+#slideshow {
+    width: 100%;
+}
+
+#slideshow img {
+    width: 100%;
+}
+
+#movies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 15px 10% 0 10%;
+    margin-bottom: 20px;
+}
+
+.moviePoster {
+    display: flex;
+}
+
+.moviePoster>img {
+    width: 28%;
+    margin-right: 10px;
+}
+
+.moviePoster>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.moviePoster>div>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30%;
+}
+
+.moviePoster>div>p img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+#sort-buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#sort-buttons button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aquamarine;
+    font-size: 16px;
+}
+#sort-buttons button:hover{
+    background-color: aqua;
+    color: orange;
+    font-weight: bold;
+}
